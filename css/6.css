@@ -148,15 +148,3 @@ footer div i {
 .icon-container:nth-child(3) {
   background-color: #ececec;
 }
-
-/* 1번 메인 */
-
-.main {
-  position: relative;
-}
-
-.main-wrap {
-  position: absolute;
-  top: 500px;
-  left: 500px;
-}

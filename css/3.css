@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Jua", sans-serif;
 }
 #mobileFrame {
   background: #fff;
@@ -60,19 +61,12 @@ header {
   position: relative;
   top: 17px;
   padding-bottom: 19px;
-  border-bottom: 1px solid rgb(207, 207, 207);
-  box-shadow: 0 4px 4px -4px rgb(207, 207, 207);
 }
 
 .clock {
   position: absolute;
   left: 35px;
   top: -8px;
-  font-family: "Nanum Gothic", sans-serif;
-  font-family: "Oswald", sans-serif;
-  font-family: "Poppins", sans-serif;
-  font-family: "Roboto", sans-serif;
-  font-weight: 800;
 }
 
 .clock i {
@@ -112,39 +106,139 @@ footer {
   flex-flow: row nowrap;
   justify-content: space-between;
   padding: 0 1rem;
-  font-family: "Nanum Gothic", sans-serif;
-  font-family: "Oswald", sans-serif;
-  font-family: "Poppins", sans-serif;
-  font-family: "Roboto", sans-serif;
-  font-weight: 800;
 }
 
-footer div i {
-  color: black;
-  font-size: 18px;
-  margin-bottom: 6px;
+/* 3번 메인 */
+main {
+  position: relative;
 }
 
-.icon-container {
+.main-upper {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 30px;
+  padding: 0 20px;
+  box-shadow: 0 4px 4px -4px rgb(71, 71, 71);
+}
+
+.name {
   display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  align-items: center;
-  width: 80px;
-  height: 45px;
-  padding: 30px 0;
-  border-radius: 20px;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  font-size: 20px;
 }
 
-.icon-container img {
-  width: 25px;
-  margin-bottom: 3px;
-}
-
-.icon-container div {
+#chat::after {
+  content: "3";
   font-size: 12px;
+  width: 17px;
+  height: 17px;
+  display: inline-block;
+  background: red;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 17px;
+  position: relative;
+  top: -10px;
+  left: -8px;
+  color: #fff;
 }
 
-.icon-container:nth-child(4) {
-  background-color: #ececec;
+.Sj {
+  margin-top: 10px;
+}
+
+.main-lower {
+  width: 100%;
+  height: 597px;
+  background-color: rgb(241, 241, 241);
+  padding: 15px 10px;
+  font-size: 15px;
+  border-top: 1px solid rgb(212, 212, 212);
+}
+
+.today {
+  color: #9c9c9c;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 13px;
+}
+
+.chatIp {
+  width: 100%;
+  height: 35px;
+  background-color: rgb(245, 245, 245);
+  border-radius: 30px;
+  margin-left: 20px;
+  margin-top: 5px;
+  border: 1px solid rgb(228, 228, 228);
+}
+
+.chatIp i {
+  margin-left: 260px;
+  line-height: 35px;
+  color: #9c9c9c;
+}
+
+.plus {
+  color: #9c9c9c;
+  font-size: 22px;
+  margin-top: 9px;
+  margin-left: -5px;
+  margin-right: -10px;
+}
+
+.textBox {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.userBox {
+  justify-content: flex-end;
+  margin-bottom: 30px;
+}
+
+.userBox .text {
+  background-color: #0866f4;
+  color: #fff;
+}
+
+.prof {
+  background: url("/img/chatImg.jpeg") no-repeat;
+  width: 40px;
+  height: 40px;
+  background-size: 50px;
+  background-position: -8px 0px;
+  border-radius: 30px;
+}
+
+.text {
+  margin: 0 10px 0 15px;
+  background-color: rgb(255, 255, 255);
+  padding: 5px 10px;
+  border-radius: 10px;
+  align-self: flex-end;
+}
+
+.time {
+  font-size: 11px;
+  color: #9c9c9c;
+  margin-top: 33px;
+}
+
+.time2 {
+  margin-top: 50px;
+}
+
+.time3 {
+  margin-top: 70px;
+}
+
+.textBox2 {
+  margin-left: 39px;
+  margin-top: 30px;
 }

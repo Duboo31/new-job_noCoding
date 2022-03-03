@@ -152,7 +152,7 @@ main {
   left: 0;
   width: 100%;
   height: 200px;
-  background-color: #2f7aeb;
+  background-color: #0866f4;
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
   z-index: -10;
@@ -175,13 +175,28 @@ main {
 .main-upper i {
   position: relative;
   top: 0px;
-  left: 300px;
+  left: 265px;
   font-size: 20px;
   color: #fff;
 }
 
 .main-upper i::after {
   content: "3";
+  font-size: 12px;
+  width: 20px;
+  height: 17px;
+  display: inline-block;
+  background: red;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 17px;
+  position: relative;
+  top: -10px;
+  left: -8px;
+}
+
+#chat::after {
+  content: "12";
   font-size: 12px;
   width: 20px;
   height: 17px;
@@ -237,9 +252,9 @@ main {
 }
 
 .lower-item:nth-child(5) {
-  background-color: #2f7aeb;
+  background-color: #0866f4;
   color: #fff;
-  height: 130px;
+  height: 135px;
 }
 
 .lower-item div:nth-child(1) {
@@ -255,18 +270,20 @@ main {
 
 .opt-cont {
   display: flex;
-  margin-top: 20px;
+  flex-flow: row wrap;
+  margin-top: 8px;
 }
 
 .opt {
   display: block;
   font-size: 15px;
   background-color: #fff;
-  color: #2f7aeb;
+  color: #0866f4;
   border-radius: 10px;
   margin-right: 10px;
-  width: 48px;
+  width: 80px;
   height: 23px;
   line-height: 23px;
   text-align: center;
+  margin-bottom: 4px;
 }
