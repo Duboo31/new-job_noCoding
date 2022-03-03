@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#mobileFrame {
+  background: #fff;
+  width: 390px;
+  height: 844px;
+  margin-left: 200px;
+  margin-top: 100px;
+  border: 17px solid black;
+  border-radius: 60px;
+  position: relative;
+  z-index: 9999;
+}
+.frameBt {
+  background: black;
+  position: absolute;
+}
+.bt1 {
+  width: 10px;
+  height: 33px;
+  top: 80px;
+  left: -20px;
+  border-radius: 10px;
+}
+.bt2 {
+  width: 10px;
+  height: 60px;
+  top: 150px;
+  left: -20px;
+  border-radius: 10px;
+}
+.bt3 {
+  width: 10px;
+  height: 60px;
+  top: 221px;
+  left: -20px;
+  border-radius: 10px;
+}
+
+.bt4 {
+  width: 10px;
+  height: 100px;
+  top: 160px;
+  right: -20px;
+  border-radius: 10px;
+}
+
+.bt5 {
+  width: 180px;
+  height: 42px;
+  top: -17px;
+  left: 91.5px;
+  border-radius: 25px;
+}
+/* 상단 디스플레이 */
+header {
+  position: relative;
+  top: 17px;
+  padding-bottom: 19px;
+  border-bottom: 1px solid rgb(207, 207, 207);
+  box-shadow: 0 4px 4px -4px rgb(207, 207, 207);
+}
+
+.clock {
+  position: absolute;
+  left: 35px;
+  top: -8px;
+  font-family: "Nanum Gothic", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+}
+
+.clock i {
+  font-size: 15px;
+}
+
+.display {
+  display: flex;
+  position: absolute;
+  right: 12px;
+  top: -8px;
+}
+.display i {
+  font-size: 14px;
+  margin-right: 6.5px;
+  font-weight: bold;
+}
+.display i:nth-child(3) {
+  font-size: 18px;
+}
+
+/* 하단 메뉴 */
+footer {
+  position: fixed;
+  bottom: 40px;
+  left: 217px;
+  width: calc(390px - 34px);
+  height: 65px;
+  border-top: 1px solid rgb(207, 207, 207);
+  padding: 3px 0;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+.icon-wrap {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding: 0 1rem;
+  font-family: "Nanum Gothic", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+}
+
+footer div i {
+  color: black;
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.icon-container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 45px;
+  padding: 30px 0;
+  border-radius: 20px;
+}
+
+.icon-container img {
+  width: 25px;
+  margin-bottom: 3px;
+}
+
+.icon-container div {
+  font-size: 12px;
+}
+
+.icon-container:nth-child(3) {
+  background-color: #ececec;
+}
+
+/* 1번 메인 */
+
+.main {
+  position: relative;
+}
+
+.main-wrap {
+  position: absolute;
+  top: 500px;
+  left: 500px;
+}
