@@ -277,7 +277,7 @@ main {
 }
 
 .list span:nth-child(4) {
-  color: #042940;
+  color: #0866f4;
   margin-left: -65px;
 }
 
@@ -286,7 +286,7 @@ main {
   width: 65px;
   height: 3px;
   display: inline-block;
-  background-color: #042940;
+  background-color: #0866f4;
   position: relative;
   bottom: -10px;
   left: 62px;
@@ -320,7 +320,7 @@ main {
   display: inline-block;
   width: 40px;
   height: 25px;
-  background-color: #042940;
+  background-color: #0866f4;
   border-radius: 10px;
   text-align: center;
   line-height: 25px;
@@ -381,12 +381,12 @@ main {
 }
 
 .sale {
-  color: #042940;
+  color: #0866f4;
   margin-right: 3px;
 }
 
 .star {
-  color: #042940;
+  color: #0866f4;
 }
 
 .star span {
