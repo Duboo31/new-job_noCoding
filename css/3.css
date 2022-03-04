@@ -135,7 +135,8 @@ main {
   width: 17px;
   height: 17px;
   display: inline-block;
-  background: red;
+  /* background: #0866f4; */
+  background: #ff0000;
   border-radius: 20px;
   text-align: center;
   line-height: 17px;
@@ -203,7 +204,8 @@ main {
 }
 
 .userBox .text {
-  background-color: #0866f4;
+  /* background-color: #0866f4; */
+  background-color: #042940;
   color: #fff;
 }
 

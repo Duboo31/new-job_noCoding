@@ -1,65 +1,135 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Oswald&family=Poppins:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
   
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;800&family=Oswald&family=Poppins:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="css/4.css">
   
-  <link rel="stylesheet" href="css/1.css">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Gothic:wght@400;800&family=Oswald&family=Poppins:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+  </head>
 <body>
-</body>
-<div id="mobileFrame">
-  <div class="frameBt bt1"></div>
-  <div class="frameBt bt2"></div>
-  <div class="frameBt bt3"></div>
-  <div class="frameBt bt4"></div>
-  <div class="frameBt bt5"></div>
-  
-  <header>
-    <div class="header-container">
-      <div class="clock">6:00 <i class="fa-solid fa-location-arrow"></i></div>
-      <div class="display">
-          <i class="fa-solid fa-signal"></i>
-          <i class="fa-solid fa-wifi"></i>
-          <i class="fa-solid fa-battery-full"></i>
+  <div id="mobileFrame">
+    <div class="frameBt bt1"></div>
+    <div class="frameBt bt2"></div>
+    <div class="frameBt bt3"></div>
+    <div class="frameBt bt4"></div>
+    <div class="frameBt bt5"></div>
+    
+    <header>
+      <div class="header-container">
+        <div class="clock">6:00 <i class="fa-solid fa-location-arrow"></i></div>
+        <div class="display">
+            <i class="fa-solid fa-signal"></i>
+            <i class="fa-solid fa-wifi"></i>
+            <i class="fa-solid fa-battery-full"></i>
+        </div>
       </div>
-    </div>
-  </header>
+    </header>
+  
+    <main>
+      <div class="search-container">
+        <i class="fa-solid fa-arrow-left"></i>
+        <div class="search-int">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <span>스튜디오 검색</span>
+        </div>
+        <div class="icons">
+          <!-- <i class="fa-solid fa-trash-can"></i> -->
+          <i class="fa-solid fa-ellipsis"></i>
+        </div>
+      </div>
 
-  <main>
-    <div></div>
-  </main>
-  
-  <footer>
-    <div class="icon-wrap">
-      <div class="icon-container">
-        <img src="icons/home.png" alt="">
-        <!-- <div>홈</div> -->
+      <div class="search-Boxs">
+        <div class="box">
+          <div>지역</div>
+        </div>
+        <div class="box">
+          <div>컨셉</div>
+        </div>
+        <div class="box selBox">
+            <div>테마</div>
+        </div>
+        <div class="box">
+          <div>작가</div>
+        </div>
       </div>
-      <div class="icon-container">
-        <img src="icons/search (1).png" alt="">
-        <!-- <div>찾기</div> -->
+      
+      <div class="list">
+        <span class="listItem">·바프 랭킹순</span>
+        <span class="listItem">·거리순</span>
+        <span class="listItem">·평점순</span>
+        <span class="listItem">·리뷰 많은순</span>
       </div>
-      <div class="icon-container">
-        <img src="icons/people.png" alt="">
-        <!-- <div>라운지</div> -->
+
+      <div class="list list2">
+        <span class="loc">서울</span>
+        <span class="loc">경기</span>
+        <span class="loc">부산</span>
+        <span class="loc">옵션</span>
+        <span class="loc">옵션</span>
+        <span class="loc">옵션</span>
+        <span class="loc">옵션</span>
       </div>
-      <div class="icon-container">
-        <img src="icons/shopping-cart.png" alt="">
-        <!-- <div>상점</div> -->
+
+      <div class="ranking">
+        <div>바프 랭킹 추천!</div>
+        <div class="call">추천 · 상담</div>
       </div>
-    </div>
-  </footer>
-</div>
+
+      <div class="studio-container">
+
+        <div class="studio-img">
+          <div class="popular-item__number">1</div>
+        </div>
+
+        <div class="studio-img img2">
+          <div class="popular-item__number">2</div>
+        </div>
+
+        <div class="studio-img img3">
+          <div class="popular-item__number">3</div>
+        </div>
+
+        <div class="studio-img img4">
+        </div>
+
+        <div class="studio-img img5">
+        </div>
+
+        <div class="studio-img img6">
+        </div>
+      </div>
+
+    </main>
+    
+    <footer>
+      <div class="icon-wrap">
+        <div class="icon-container">
+          <img src="icons/home.png" alt="">
+          <!-- <div>홈</div> -->
+        </div>
+        <div class="icon-container">
+          <img src="icons/search (1).png" alt="">
+          <!-- <div>찾기</div> -->
+        </div>
+        <div class="icon-container">
+          <img src="icons/people.png" alt="">
+          <!-- <div>라운지</div> -->
+        </div>
+        <div class="icon-container">
+          <img src="icons/shopping-cart.png" alt="">
+          <!-- <div>상점</div> -->
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
 </html>
