@@ -99,6 +99,7 @@ footer {
   padding: 3px 0;
   border-bottom-right-radius: 40px;
   border-bottom-left-radius: 40px;
+  background-color: #fff;
 }
 
 .icon-wrap {
@@ -136,4 +137,253 @@ footer div i {
 
 .icon-container:nth-child(3) {
   background-color: #ececec;
+}
+
+.search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.left {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.write {
+  padding: 5px 10px;
+  background-color: #0866f4;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.search-Boxs {
+  width: 100%;
+  margin-top: 15px;
+  border-top: 3px solid #1b6a9b;
+  display: flex;
+}
+
+.instagram {
+  width: 20px;
+  height: 20px;
+}
+
+.instagram img {
+  width: 10px;
+  height: 10px;
+}
+
+#insta {
+  width: 26px;
+  height: 26px;
+  margin-right: 5px;
+}
+
+.insta {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  font-weight: bold;
+}
+
+.review {
+}
+
+.user-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.userImg {
+  display: flex;
+}
+
+.user-box div img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.user-box-name {
+  margin-left: 10px;
+  margin-top: 3px;
+}
+
+.day {
+  font-size: 16px;
+  font-weight: bold;
+  color: #0866f4;
+}
+
+.mainImg {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: -8px;
+}
+
+.mainImg img {
+  width: 100%;
+}
+
+.reviewStar {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  margin-top: -5px;
+}
+
+.reivew-box {
+  width: 33%;
+}
+
+.review-item {
+  width: 67%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.reivew-item-box {
+  width: 50%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.reivew-item-box div {
+  text-align: center;
+  border-right: 1px solid #e2e2e2;
+  border-bottom: 1px solid #e2e2e2;
+  width: 100%;
+}
+
+.review-tit {
+  background-color: #e9e9e9;
+}
+
+.reivew-box {
+  border-top: 1px solid #e2e2e2;
+  border-right: 1px solid #e2e2e2;
+  border-bottom: 1px solid #e2e2e2;
+  text-align: center;
+  /* padding: 20px 0; */
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.studio-tit {
+  font-size: 19px;
+  font-weight: bold;
+  /* padding-bottom: 3px; */
+}
+
+.star-st {
+  color: #0866f4;
+  padding-right: 5px;
+}
+
+.point {
+  font-size: 25px;
+}
+
+.point2 {
+  font-size: 14px;
+  padding-left: 3px;
+}
+
+.likeBox {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: 100%;
+  height: 30px;
+  padding: 0 20px;
+  align-items: center;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.likeBox div i {
+  padding-right: 5px;
+}
+
+.fa-thumbs-up {
+  color: #0866f4;
+}
+
+.userT {
+  padding: 10px 20px 5px;
+  width: 100%;
+  /* border-bottom: 1px solid rgb(212, 212, 212); */
+}
+
+.userTit {
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+
+.user-wrap {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.user-wrap div {
+  margin-right: 5px;
+}
+
+.user-wrap img {
+  margin-right: 5px;
+}
+
+.bg {
+  background-color: #f3f3f3;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.bg2 {
+  background-color: #f3f3f3;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.user {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.user-name {
+  font-weight: bold;
+}
+
+.rep {
+  margin-left: 45px;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.rep i {
+  transform: rotate(180deg);
+  transform: scaleY(-1);
+  margin-right: 10px;
+}
+
+.repName {
+  color: #0866f4;
+  margin: 0 5px;
+  font-weight: bold;
 }
